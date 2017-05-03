@@ -1,0 +1,148 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt,
+var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body,html{
+    font-family: 'microsoft yahei',sans-serif;
+}
+.fl{float: left}
+.fr{float: right}
+
+.page{
+    background: #1e88e5;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    height: 600px;
+}
+.middle{
+    margin: 0 auto;
+    width: 430px;
+    /*height: 500px;*/
+    overflow: hidden;
+}
+.content{
+    float: left;
+    margin-top: 40%;
+    overflow: hidden;
+    width: 430px;
+}
+.content-fst{
+    padding-top:32px;
+     height: 114px;
+    background: #03a9f4;
+}
+.content-fst span{
+  background: url("../img/landing.png") no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-left: 152px;
+}
+.content-fst h2{
+    margin-left: 18px;
+    color: #fff;
+    font-size: 22px;
+    margin-top: -2px;
+}
+.content-fst p{
+    font-size: 16px;
+    color: #ffffff;
+    float: left;
+    margin-left: -120px;
+    margin-top: 44px;
+}
+.content-snd{
+    overflow: hidden;
+    padding-bottom: 20px;
+    background: #ffffff;
+}
+.content-snd input{
+    color: #999999;
+    padding-left: 20px;
+    margin-top: 28px;
+    width: 366px;
+    height: 30px;
+}
+.content-snd .login_btn{color: white;}
+.login_btn{
+    background: #04a0e7;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    width: 390px;
+    cursor: pointer;
+}
+.content_third{
+    text-align: center;
+    width: 430px;
+    height: 58px;
+    background: #03a9f4;
+}
+.content_third p{
+    float: left;
+    margin-left: 96px;
+    margin-top:20px;
+    color: #ffffff;
+    font-size: 15px;
+}
+.youxiang_wrong{
+    display: none;
+    height: 1px;
+}
+.youxiang_wrong p{
+    padding-left: 40px;
+    padding-top: 4px;
+    color: #fd0101;
+    font-size: 12px;
+}
+.title{
+    width: 430px;
+}
+.login_con p{
+    width: 430px; 
+}
+.youxiang_wrong p{
+    width: auto;
+}
+.authCode label{
+     color:#999;
+    font-size: 15px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 188px;
+    width: auto;
+}
+.authCode a{margin-top: -36px;position: relative;}
+.authCode_img{float: left;
+overflow: hidden;}
+.authCode_img img{
+    margin-left: 2px;
+    margin-top: 14px;
+    color: white;
+}
+.authCode span{
+    float: right;
+    margin-right: ;
+    margin-top: ;
+
+    color:#999;
+    font-size: 15px;
+
+}
+#captcha{
+    width: 40px;
+    height: 20px;
+    margin-top: -22px;
+    margin-left: 246px;
+}
+.kbq{float: right;position: relative;margin-top: -18px;margin-right: 8px;cursor: pointer;}

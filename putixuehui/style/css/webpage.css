@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+/*翻页*/
+.pages{ clear:both; overflow:hidden; margin:15px 5px;}
+.pagination li{float: left;margin-left: -1px;line-height:16px;color: #007392;text-decoration: none;background-color: #fff;border: 1px solid #ddd; cursor:pointer; }
+.pagination li a{ display:block; font-size:13px; padding: 6px 12px; color:#666;}
+.pagination .up{ padding: 6px 12px; background-color: #f4f4f4;}
+.allpage{ color:#666; font-size:13px;}
+.allpage span{ padding:0 5px; font-size:13px; color:#007392; font-weight:bold;}
+.pagination .active{background-color: #007392;border-color:#007392;}
+.pagination .active a{ color:#fff;}
+.pagination li:hover{background-color: #f4f4f4;}
+.fl{ float:left;}.fr{ float:right;}
